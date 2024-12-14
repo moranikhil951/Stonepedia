@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.image-logo {
+  height: 10px;
+}
+
+.webiste-logo-container {
+  display: flex;
+
+  margin: 10px;
+}
+
+/* Navbar */
+nav {
+  background-color: #1f3d29;
+  /* Dark green */
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #b3b3b3;
+  /* Light gray on hover */
+}
+
+nav .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .flex input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 2px solid #1f3d29;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+nav .flex input:focus {
+  border-color: #6f9c70;
+  /* Light green */
+}
+
+nav .flex svg {
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+nav .flex svg:hover {
+  fill: #b3b3b3;
+  /* Gray color on hover */
+}
+
+/* Hero Section */
+header {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header .text-center {
+  text-align: center;
+}
+
+header .bg-black {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Why Stonepedia Section */
+#why-stonepedia {
+  padding: 4rem 0;
+  background-color: #d6f7d2;
+  /* Light green background */
+  text-align: center;
+}
+
+#why-stonepedia h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f3d29;
+}
+
+#why-stonepedia p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* About Section */
+#about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f3d29;
+  margin-bottom: 2rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 4rem 0;
+  background-color: #d6f7d2;
+}
+
+#gallery .flex {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding: 0 2rem;
+}
+
+#gallery .min-w-300px {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#gallery .p-4 {
+  padding: 1rem;
+  background-color: white;
+}
+
+#gallery h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1f3d29;
+}
+
+#gallery p {
+  color: #555;
+}
+
+/* Key Features Section */
+#features {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+#features h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f3d29;
+  margin-bottom: 2rem;
+}
+
+#features .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+#features .bg-white {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#features .bg-white:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f3d29;
+  margin-bottom: 1rem;
+}
+
+#features p {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #1f3d29;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
